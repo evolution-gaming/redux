@@ -32,6 +32,7 @@ On this page we will only feature a few of them that the Redux maintainers have 
 
 * [Live React: Hot Reloading and Time Travel](http://youtube.com/watch?v=xsSnOQynTHs) — See how constraints enforced by Redux make hot reloading with time travel easy
 * [Cleaning the Tar: Using React within the Firefox Developer Tools](https://www.youtube.com/watch?v=qUlRpybs7_c) — Learn how to gradually migrate existing MVC applications to Redux
+* [Redux: Simplifying Application State](https://www.youtube.com/watch?v=okdC5gcD-dM) — An intro to Redux architecture
 
 ## Using Redux
 
@@ -53,6 +54,7 @@ On this page we will only feature a few of them that the Redux maintainers have 
 * [redux-immutable-state-invariant](https://github.com/leoasis/redux-immutable-state-invariant) — Warns about state mutations in development
 * [redux-analytics](https://github.com/markdalgleish/redux-analytics) — Analytics middleware for Redux
 * [redux-gen](https://github.com/weo-edu/redux-gen) — Generator middleware for Redux
+* [redux-saga](https://github.com/yelouafi/redux-saga) — An alternative side effect model for Redux apps
 
 ### Routing
 
@@ -63,18 +65,16 @@ On this page we will only feature a few of them that the Redux maintainers have 
 
 * [redux-form](https://github.com/erikras/redux-form) — Keep React form state in Redux
 
-### Store Enhancers
+### Enhancers
 
 * [redux-batched-subscribe](https://github.com/tappleby/redux-batched-subscribe) — Customize batching and debouncing calls to the store subscribers
 * [redux-history-transitions](https://github.com/johanneslumpe/redux-history-transitions) — History transitions based on arbitrary actions
-
-### Reducer Enhancers
-
 * [redux-optimist](https://github.com/ForbesLindesay/redux-optimist) — Optimistically apply actions that can be later committed or reverted
 * [redux-undo](https://github.com/omnidan/redux-undo) — Effortless undo/redo and action history for your reducers
 * [redux-ignore](https://github.com/omnidan/redux-ignore) — Ignore redux actions by array or filter function
 * [redux-recycle](https://github.com/omnidan/redux-recycle) — Reset the redux state on certain actions
 * [redux-batched-actions](https://github.com/tshelburne/redux-batched-actions) — Dispatch several actions with a single subscriber notification
+* [redux-search](https://github.com/treasure-data/redux-search) — Automatically index resources in a web worker and search them without blocking
 
 ### Utilities
 
@@ -85,7 +85,7 @@ On this page we will only feature a few of them that the Redux maintainers have 
 * [redux-transducers](https://github.com/acdlite/redux-transducers) — Transducer utilities for Redux
 * [redux-immutablejs](https://github.com/indexiatech/redux-immutablejs) — Integration tools between Redux and [Immutable](https://github.com/facebook/immutable-js/)
 * [redux-tcomb](https://github.com/gcanti/redux-tcomb) — Immutable and type-checked state and actions for Redux
-* [redux-mock-store](https://github.com/arnaudbenard/redux-mock-store) - Mock redux store for testing your app
+* [redux-mock-store](https://github.com/arnaudbenard/redux-mock-store) — Mock redux store for testing your app
 
 ### Developer Tools
 
@@ -96,6 +96,12 @@ On this page we will only feature a few of them that the Redux maintainers have 
 * [Flux Standard Action](https://github.com/acdlite/flux-standard-action) — A human-friendly standard for Flux action objects
 * [Canonical Reducer Composition](https://github.com/gajus/canonical-reducer-composition) — An opinionated standard for nested reducer composition
 * [Ducks: Redux Reducer Bundles](https://github.com/erikras/ducks-modular-redux) — A proposal for bundling reducers, action types and actions
+
+### Translations
+
+* [中文文档](http://camsong.github.io/redux-in-chinese/) — Chinese
+* [繁體中文文件](https://github.com/chentsulin/redux) — Traditional Chinese
+* [Redux in Russian](https://github.com/rajdee/redux-in-russian) — Russian
 
 ## More
 
